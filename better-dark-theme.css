@@ -1,0 +1,46 @@
+/*More dark themed elements*/
+/*Contributors: Noahkiq + Julien12150*/
+.popout-menu .popout-menu-item, #settings-roles .roles li.selected, #settings-roles .roles li:hover {
+    background-color: #282B30 !important;
+}
+
+.popout-menu .popout-menu-item:hover{
+    background-color: #2B2E33 !important;
+}
+
+.popout-menu .popout-menu-separator{
+    border-bottom: #25282D !important;
+}
+
+.emoji-picker,  .emoji-picker .header .search-bar, .sticky-header, .diversity-selector .popout {
+    background-color: #2B2B30 !important;
+}
+.emoji-picker .search-bar input
+{
+    color: #959faf;
+}
+.diversity-selector .popout {
+    border-color: rgba(191, 191, 191, 0.2);
+}
+.emoji-picker .dimmer.visible
+{
+    background-color: #2B2B30;
+    opacity: 0.75;
+}
+
+.settings .settings-inner, .guild-settings-modal-emoji, .guild-settings-modal-emoji .no-emoji, .guild-settings-modal-members {
+    background-color: #34373C !important;
+}
+
+.settings .settings-actions, .search-bar.search-bar-light{
+    background-color: #2E3136 !important;
+    border-top: 0px solid !important;
+}
+
+.settings .tab-bar.SIDE {
+    margin-right: -17px !important;
+}
+
+.settings input,.emoji-picker .scroller .emoji-item.selected {
+    background-color: #5F6267 !important;
+}
