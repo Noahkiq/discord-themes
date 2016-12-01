@@ -1,0 +1,34 @@
+/* Set everyone's avatar to Barry Benson */
+.avatar-large, .avatar-profile, .avatar-small, .avatar-xlarge, .avatar-xsmall, .avatar-xxlarge, .avatar-popout {
+  background-image: url(https://pbs.twimg.com/profile_images/753571163243057152/v8rga-7U.jpg) !important;
+}
+
+/* Add - Barry " - to the beginning of everyone's name */
+.private-channels .channel .channel-name:before, .user-name:before, .chat .user-name:before, .member-inner .member-username .member-username-inner:before {
+	content: "Barry \"";
+}
+
+/* Add - " Benson - to the end of everyone's name */
+.private-channels .channel .channel-name:after, .user-name:after, .chat .user-name:after, .member-inner .member-username .member-username-inner:after {
+	content: "\" Benson";
+}
+
+/* Replace chat background with Barry Benson */
+.chat .messages {
+	background-image: url(https://i.imgur.com/wDFZdTF.jpg) !important;
+}
+
+/* Color various elements orange */
+.theme-dark .chat .title-wrap, .theme-light .chat .title-wrap, .flex-spacer, .private-channels .scroller, .guild-channels, .typing {
+	border-top: 0px;
+	border-bottom: 0px;
+	background-color: #CF6E0F;
+}
+.theme-light .channel-members, .theme-dark .channel-members, .private-channels .search-bar, .account, .private-channels .channel.selected a, .private-channels .channel:hover .channel-activity, .private-channels .channel:hover a, .guild-channels .channel.selected a, .guild-channels .channel:hover .channel-activity, .guild-channels .channel:hover a, .guild-header header {
+    border-top: 0px;
+	border-bottom: 0px;
+	background-color: #B05E0C;
+}
+.guilds-wrapper .guilds {
+	background-color: #914E0A;
+}
